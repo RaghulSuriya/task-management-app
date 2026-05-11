@@ -7,9 +7,9 @@ import {
 import { useEffect } from "react";
 
 import Login from "./pages/Login.jsx";
-import Register from "./pages/Register.jsx";
+import Register from "./pages/RegisterPage.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
-import Profile from "./pages/Profile.jsx";
+import Profile from "./pages/ProfilePage.jsx";
 
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 
