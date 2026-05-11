@@ -18,7 +18,7 @@ function App() {
   // TEST BACKEND CONNECTION
   useEffect(() => {
 
-    fetch("http://localhost:8080/api/tasks")
+    fetch("https://task-management-backend-ago0.onrender.com/api/tasks")
       .then((res) => res.json())
       .then((data) => {
         console.log("Backend Connected ✅");
